@@ -15,11 +15,11 @@ class GpaCalcDetailViewController: UIViewController, UITextFieldDelegate, UIPick
     @IBOutlet weak var creditsPicker: UIPickerView!
     
     
-    let levelPickerOptions = [" No level", " CP", " A", " H / AP"]
-    let creditsPickerOptions = [" 1.25\t (Quarter year)",
-                                " 2.5\t\t (Half year)",
-                                " 5\t\t (Full year)",
-                                " 6\t\t (Full year with lab)"]
+    let levelPickerOptions = ["   No level", "   CP", "   A", "   H / AP"] //add 2
+    let creditsPickerOptions = ["   1.25\t (Quarter year)",
+                                "   2.5\t (Half year)",
+                                "   5\t\t (Full year)",
+                                "   6\t\t (Full year with lab)"]
     
     @IBAction func deleteClassButton()
     {
